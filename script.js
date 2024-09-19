@@ -264,7 +264,7 @@ $(document).ready(function () {
   }
 
   const effect = new Effect(ctxTwo, canvasTwo.width, canvasTwo.height);
-  effect.wrapText("Happy Valentine's Day\nPoorva");
+  effect.wrapText("Happy BirthDay\nPoorva");
   effect.render();
   function animateTwo() {
     ctxTwo.clearRect(0, 0, canvasTwo.width, canvasTwo.height);
